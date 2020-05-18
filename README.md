@@ -15,3 +15,17 @@
 1. Ruby
 1. Java
 1. Elixir
+
+# Pythonでの Hello, World
+```
+print("Hello, World")
+```
+
+# Javaでの Hello, World
+```
+class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello, World");
+    }
+}
+```
