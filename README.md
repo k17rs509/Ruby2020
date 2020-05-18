@@ -10,3 +10,8 @@
 - Ruby
 - Java
 - Elixir
+
+# 得意なプログラミング言語
+1. Ruby
+1. Java
+1. Elixir
