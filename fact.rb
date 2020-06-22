@@ -26,7 +26,13 @@ def factR n
     end
 end
 
+def factR2 n
+    return 1 if n==0
+    return n*factR2(n-1) if n>0
+end
+
 x=ARGV[0].to_i
 puts fact x
 puts fact2 x
-puts factR x
+#puts factR x
+puts factR2 x
