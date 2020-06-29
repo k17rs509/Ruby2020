@@ -1,5 +1,8 @@
 puts "number?"
-a=gets.to_i
+a = gets.to_i
 
-p a
-puts a*3
+if a%2 == 0
+    puts *even*
+else
+    puts *odd*
+end
