@@ -19,3 +19,8 @@ a,b,*c=[0,1,2,3,4]
 p a
 p b
 p c
+
+ss="a,b,c,d,e".split ","
+p ss
+s=ss.join ":"
+p s
