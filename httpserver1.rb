@@ -16,8 +16,9 @@ end
 s=TCPServer.open 80
 
 while true
-    sock=s.accept
-    server sock
+    Thread.new s.accept do |sock|
+        server sock
+    end
 end
 
 s.close
